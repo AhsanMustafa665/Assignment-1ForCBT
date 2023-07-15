@@ -56,20 +56,20 @@ body {
   top: 5px;
   box-shadow: 0 2px 0 #7d5bb0;
 }
-ul {
+header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   background-color: #8a3ffc;
 }
-ul > a {
+header > a {
   text-decoration: none;
   margin: 10px 30px 10px 0;
   padding: 10px 20px;
   color: whitesmoke;
   font-weight: 600;
 }
-ul > a:hover {
+header > a:hover {
   padding: 10px 20px;
   background-color: #595295;
   border-radius: 10px;
@@ -92,7 +92,6 @@ ul > a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin-top: -5rem;
 }
 .banner .banner-left p {
   margin: 20px 0 10px 0;
@@ -263,6 +262,7 @@ ul > a:hover {
   background-color: hsl(264, 76%, 52%);
   color: whitesmoke;
   padding-bottom: 40px;
+  margin-top: -5rem;
 }
 .messages > h1 {
   text-align: center;
@@ -301,4 +301,15 @@ ul > a:hover {
 .submit-button:active {
   top: 5px;
   box-shadow: 0 2px 0 #7d5bb0;
+}
+footer {
+  background-color: #1a153f;
+  color: whitesmoke;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 0;
+}
+footer > p > span {
+  color: #7126e2;
+  font-weight: bold;
 }
