@@ -176,7 +176,15 @@ ul > a:hover {
   margin-bottom: 5rem;
   background: #1a153f;
   color: whitesmoke;
-  padding-bottom: ;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  border-bottom: 3px solid whitesmoke;
+  background: #7126e2;
+  color: whitesmoke;
 }
 .about .about-left {
   width: 50%;
@@ -212,4 +220,16 @@ ul > a:hover {
 .about-text > li {
   margin-left: 15px;
   margin-top: 6px;
+}
+.subscriber {
+  background-color: #7126e2;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  margin-top: -5rem;
+  padding: 50px 0;
+}
+.subscriber h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
 }
